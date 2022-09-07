@@ -1,0 +1,15 @@
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+ #mountNode, #mountNode~div {
+border: 1px solid #888;
+margin: 1em;
+padding: 1em;
+}
+
+#mountNode input, #mountNode2 input {
+display: block;
+margin: 1rem 0;
+}
+
